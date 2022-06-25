@@ -1,0 +1,12 @@
+[package]
+name = "vox_elf_loader"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["std"]
+std = ["byteorder/std"]
+
+[dependencies]
+byteorder = { version = "1.4", default-features = false }
+bitflags = "1.3"
