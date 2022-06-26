@@ -1,3 +1,3 @@
 # ELF Loader for Voxeon OS
 
-NOTE: This loader only supports loading executable ELF files.
+NOTE: This parser was designed to only support the loading of statically linked executable ELF files.
