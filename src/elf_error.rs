@@ -16,4 +16,7 @@ pub enum ELFError {
     InvalidELF32SectionHeaderSize,
     InvalidELFSectionHeaderAddress,
     InvalidELFSectionHeaderAddressAlignment,
+    InvalidString,
+    InvalidStringIndex,
+    InvalidLookupLabel,
 }
